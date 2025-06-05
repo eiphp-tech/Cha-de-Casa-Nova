@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Gotu&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-gotu: "Gotu", sans-serif;
+  --font-instru: "Instrument Sans", sans-serif;
+}
