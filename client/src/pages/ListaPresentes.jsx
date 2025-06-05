@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react"
-import axios from "axios"
+import React from "react"
 import Cards from "../components/cards"
 
 import batedeira from "../assets/image/batedeira.svg"
@@ -7,19 +6,6 @@ import talheres from "../assets/image/talheres.svg"
 import panelas from "../assets/image/panelas.svg"
 
 const ListaPresentes = () => {
-  const [gifts, setGifts] = useState([])
-
-  useEffect(() => {
-    axios
-      .get(`${import.meta.env.VITE_API_URL}/api/gifts`)
-      .then((response) => {
-        setGifts(response.data)
-      })
-      .catch((error) => {
-        console.error("Erro ao buscar presentes:", error)
-      })
-  }, [])
-
   return (
     <main className="relative w-full min-h-screen flex flex-col justify-center items-center pb-10 overflow-x-hidden">
       <span className="font-gotu text-2xl text-gray-950 font-bold -translate-x-16 -translate-y-8">
@@ -64,18 +50,7 @@ const ListaPresentes = () => {
         className="absolute top-56 -left-48 h-[900px] w-auto rotate-12 -z-10"
       />
 
-      <section className="grid grid-cols-2 gap-4 mt-10 px-4">
-        {gifts.map((item, index) => (
-          <Cards
-            key={item._id || index}
-            nome={item.title}
-            imageURL={item.imageURL}
-            link={item.link}
-            reservado={item.reserved}
-            id={item._id}
-          />
-        ))}
-      </section>
+      <section className="grid grid-cols-2 gap-4 mt-10 px-4"></section>
 
       <img
         src={panelas}

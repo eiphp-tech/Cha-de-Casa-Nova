@@ -1,36 +1,40 @@
-import React from "react"
+import React, { useState } from "react"
 import { BookmarkPlus, BookmarkCheck } from "lucide-react"
 
-const Cards = ({ gift, onReserve }) => {
-  const { _id, nome, imageURL, link, reservado } = gift
+const Cards = ({ imageURL, title, link }) => {
+  const [reserved, setReserved] = useState(false)
 
-  const handleClick = () => {
-    if (!reservado) {
-      onReserve(_id)
+  const handleReserve = () => {
+    if (!reserved) {
+      setReserved(true)
     }
   }
 
   return (
     <section className="w-80  bg-white rounded-xl shadow-md overflow-hidden">
       <div className="h-40 bg-gray-300 flex items-center justify-center">
-        <img src={imageURL} alt={nome} className="object-cover h-full w-full" />
+        <img
+          src={imageURL}
+          alt={title}
+          className="object-cover h-full w-full"
+        />
       </div>
       <div className="p-4 flex flex-col gap-2">
-        <h3 className="text-lg font-instru">{nome}</h3>
+        <h3 className="text-lg font-instru">{title}</h3>
 
         <div className="flex justify-between items-center">
           <button
-            onClick={handleClick}
+            onClick={handleReserve}
             className={`flex items-center gap-1 text-sm ${
-              reservado ? "text-green-600" : "text-gray-700"
+              reserved ? "text-green-600" : "text-gray-700"
             }`}
           >
-            {reservado ? (
+            {reserved ? (
               <BookmarkCheck size={18} />
             ) : (
               <BookmarkPlus size={18} />
             )}
-            {reservado ? "Reservado" : "Reservar"}
+            {reserved ? "Reservado" : "Reservar"}
           </button>
 
           <a
