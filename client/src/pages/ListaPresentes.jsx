@@ -18,18 +18,13 @@ const ListaPresentes = () => {
   }, [])
 
   const handleReservar = (id) => {
-    fetch(
-      `<span class="math-inline">/${API_URL}/api/presentes/</span>${id}/reservar`,
-      {
-        method: "PUT",
-      }
-    )
+    fetch(`${API_URL}/api/presentes/${id}/reservar`, { method: "PUT" })
       .then((response) => response.json())
       .then(() => {
         // Atualiza o estado local para refletir a mudança sem recarregar a página
         setPresentes((prevPresentes) =>
           prevPresentes.map((presente) =>
-            presente.id === id ? { ...presente, reservado: true } : presente
+            presente._id === id ? { ...presente, reservado: true } : presente
           )
         )
       })
