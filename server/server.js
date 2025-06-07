@@ -21,7 +21,7 @@ mongoose
 // 5. Definir o Schema (a "planta" dos nossos dados)
 const presenteSchema = new mongoose.Schema({
   title: String,
-  imageURL: String,
+  imageSlug: String, // <--- ADICIONAMOS ESTE
   link: String,
   reservado: { type: Boolean, default: false },
 })

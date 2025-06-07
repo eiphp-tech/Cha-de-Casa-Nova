@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import Cards from "../components/cards"
+import imageCatalog from "../assets/image/presentes/imageCatalogo"
 
 import batedeira from "../assets/image/batedeira.svg"
 import talheres from "../assets/image/talheres.svg"
@@ -37,10 +38,10 @@ const ListaPresentes = () => {
 
   return (
     <main className="relative w-full min-h-screen flex flex-col justify-center items-center pb-10 overflow-x-hidden">
-      <span className="font-gotu text-2xl text-gray-950 font-bold -translate-x-16 -translate-y-8">
+      <span className="font-gotu text-2xl text-gray-950 font-bold -translate-x-16 mt-10">
         Sugestão de
       </span>
-      <h1 className="font-gotu text-6xl font-bold text-gray-950 w-80 -translate-x-6 -translate-y-12">
+      <h1 className="font-gotu text-6xl font-bold text-gray-950 w-80 -translate-x-6 -translate-y-1">
         Presentes
       </h1>
 
@@ -50,7 +51,7 @@ const ListaPresentes = () => {
         className="absolute top-0 right-0 -translate-y-60 translate-x-2/4 -rotate-12 -z-10"
       />
 
-      <section className="mt-5 px-4">
+      <section className="mt-10 px-4">
         <h2 className="font-gotu text-2xl font-bold text-gray-950">
           Informações Importantes
         </h2>
@@ -82,12 +83,12 @@ const ListaPresentes = () => {
       <section className="grid grid-cols-1 gap-4 mt-10 px-4">
         {presentes.map((presente) => (
           <Cards
-            key={presente.id}
+            key={presente._id}
             title={presente.title}
-            imageURL={presente.imageURL}
+            imageSlug={imageCatalog[presente.imageSlug]}
             link={presente.link}
-            reservado={presente.reservado} // Passa o estado de reservado para o Card
-            onReservar={() => handleReservar(presente.id)} // Passa a função para o Card
+            reservado={presente.reservado}
+            onReservar={() => handleReservar(presente._id)}
           />
         ))}
       </section>

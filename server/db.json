@@ -1,30 +1,16 @@
 [
   {
     "id": 1,
-    "title": "Conjunto de Panelas Inox",
-    "imageURL": "URL_DA_IMAGEM_AQUI",
-    "link": "LINK_DE_SUGESTAO_AQUI",
+    "title": "Sanduicheira",
+    "imageSlug": "URL_DA_IMAGEM_AQUI",
+    "link": "https://www.amazon.com.br/dp/B076FHDTB3?ref=cm_sw_r_cso_wa_apan_dp_250EQT9A83M7CEAHHE2Q&ref_=cm_sw_r_cso_wa_apan_dp_250EQT9A83M7CEAHHE2Q&social_share=cm_sw_r_cso_wa_apan_dp_250EQT9A83M7CEAHHE2Q&previewDoh=1&previewDohDeal=1&th=1",
     "reservado": true
   },
   {
     "id": 2,
-    "title": "Batedeira Planetária Preta",
-    "imageURL": "URL_DA_IMAGEM_AQUI",
-    "link": "LINK_DE_SUGESTAO_AQUI",
+    "title": "Jogo de Facas",
+    "imageSlug": "URL_DA_IMAGEM_AQUI",
+    "link": "https://www.amazon.com.br/dp/B07JJNL9M6?ref=cm_sw_r_cso_wa_apan_dp_8QQE0FXRJKQZKCF91EG4&ref_=cm_sw_r_cso_wa_apan_dp_8QQE0FXRJKQZKCF91EG4&social_share=cm_sw_r_cso_wa_apan_dp_8QQE0FXRJKQZKCF91EG4&previewDoh=1&previewDohDeal=1",
     "reservado": false
-  },
-  {
-    "id": 3,
-    "title": "Aparelho de Jantar Branco",
-    "imageURL": "URL_DA_IMAGEM_AQUI",
-    "link": "LINK_DE_SUGESTAO_AQUI",
-    "reservado": false
-  },
-  {
-    "id": 4,
-    "title": "Faqueiro Inox 24 peças",
-    "imageURL": "URL_DA_IMAGEM_AQUI",
-    "link": "LINK_DE_SUGESTAO_AQUI",
-    "reservado": true
   }
 ]

@@ -70,7 +70,7 @@ const Home = () => {
     <motion.main
       initial="hidden"
       animate="visible"
-      className="relative w-full min-h-screen flex flex-col justify-center items-center gap-14 px-4 pb-10 overflow-x-hidden -mb-10"
+      className="relative w-full min-h-screen flex flex-col justify-center items-center gap-14 px-4  overflow-x-hidden -mb-10"
     >
       <motion.img
         src={batedeira}
@@ -99,7 +99,16 @@ const Home = () => {
           </h1>
         </motion.div>
         <motion.p
-          className="bg-black text-white p-2 rounded-sm text-2xl font-instru font-medium"
+          className="text-2xl font-instru font-medium translate-x-10 -translate-y-3"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.8 }}
+        >
+          para as mulheres
+        </motion.p>
+
+        <motion.p
+          className="bg-black text-white p-2 -pt-2 rounded-sm text-2xl font-instru font-medium"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
@@ -118,7 +127,7 @@ const Home = () => {
       />
 
       <motion.p
-        className="text-center w-4/5 text-2xl font-instru font-light text-gray-950 z-10"
+        className="text-center w-4/5 text-[20px] font-instru font-light text-gray-950 z-10"
         variants={fadeIn}
       >
         Um momento importante, enquanto nos preparamos para essa nova etapa.
@@ -157,7 +166,7 @@ const Home = () => {
           <p className="text-5xl font-gotu">Julho</p>
         </div>
         <div className="flex flex-col items-center justify-center border-t border-b border-black w-[95px] pl-1 pr-1">
-          <p className="text-2xl font-gotu">ás 19h</p>
+          <p className="text-2xl font-gotu">ás 16h</p>
         </div>
       </motion.section>
 
@@ -185,7 +194,7 @@ const Home = () => {
       </motion.section>
 
       <motion.section
-        className="flex flex-col justify-center bg-gray-200 p-4 rounded-3xl w-4/5"
+        className="flex flex-col justify-center bg-gray-200 p-2 rounded-3xl w-[90%]"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
