@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Conjunto de Panelas Inox",
+    "imageURL": "URL_DA_IMAGEM_AQUI",
+    "link": "LINK_DE_SUGESTAO_AQUI",
+    "reservado": true
+  },
+  {
+    "id": 2,
+    "title": "Batedeira Planetária Preta",
+    "imageURL": "URL_DA_IMAGEM_AQUI",
+    "link": "LINK_DE_SUGESTAO_AQUI",
+    "reservado": false
+  },
+  {
+    "id": 3,
+    "title": "Aparelho de Jantar Branco",
+    "imageURL": "URL_DA_IMAGEM_AQUI",
+    "link": "LINK_DE_SUGESTAO_AQUI",
+    "reservado": false
+  },
+  {
+    "id": 4,
+    "title": "Faqueiro Inox 24 peças",
+    "imageURL": "URL_DA_IMAGEM_AQUI",
+    "link": "LINK_DE_SUGESTAO_AQUI",
+    "reservado": true
+  }
+]

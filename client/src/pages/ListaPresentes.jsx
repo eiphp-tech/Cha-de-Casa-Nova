@@ -1,12 +1,36 @@
 import React, { useEffect, useState } from "react"
 import Cards from "../components/cards"
-import presentes from "../dados/presentes"
 
 import batedeira from "../assets/image/batedeira.svg"
 import talheres from "../assets/image/talheres.svg"
 import panelas from "../assets/image/panelas.svg"
 
 const ListaPresentes = () => {
+  const [presentes, setPresentes] = useState([])
+
+  useEffect(() => {
+    fetch("http://localhost:3001/api/presentes")
+      .then((response) => response.json())
+      .then((data) => setPresentes(data))
+      .catch((error) => console.error("Erro ao buscar presentes:", error))
+  }, [])
+
+  const handleReservar = (id) => {
+    fetch(`http://localhost:3001/api/presentes/${id}/reservar`, {
+      method: "PUT",
+    })
+      .then((response) => response.json())
+      .then(() => {
+        // Atualiza o estado local para refletir a mudança sem recarregar a página
+        setPresentes((prevPresentes) =>
+          prevPresentes.map((presente) =>
+            presente.id === id ? { ...presente, reservado: true } : presente
+          )
+        )
+      })
+      .catch((error) => console.error("Erro ao reservar presente:", error))
+  }
+
   return (
     <main className="relative w-full min-h-screen flex flex-col justify-center items-center pb-10 overflow-x-hidden">
       <span className="font-gotu text-2xl text-gray-950 font-bold -translate-x-16 -translate-y-8">
@@ -58,6 +82,8 @@ const ListaPresentes = () => {
             title={presente.title}
             imageURL={presente.imageURL}
             link={presente.link}
+            reservado={presente.reservado} // Passa o estado de reservado para o Card
+            onReservar={() => handleReservar(presente.id)} // Passa a função para o Card
           />
         ))}
       </section>

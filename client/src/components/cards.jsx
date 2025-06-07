@@ -1,14 +1,7 @@
 import { BookmarkPlus, BookmarkCheck } from "lucide-react"
 import React, { useState } from "react"
 
-const Cards = ({ imageURL, title, link }) => {
-  const [reserved, setReserved] = useState(false)
-
-  const handleReserve = () => {
-    if (!reserved) {
-      setReserved(true)
-    }
-  }
+const Cards = ({ title, imageURL, link, reservado, onReservar }) => {
   return (
     <section className="w-80 bg-white rounded-xl shadow-md overflow-hidden">
       <div className="h-40 bg-gray-300 flex items-center justify-center">
@@ -22,20 +15,15 @@ const Cards = ({ imageURL, title, link }) => {
         <h3 className="text-lg font-instru font-semibold">{title}</h3>
         <div className="flex justify-between items-center">
           <button
-            Add
-            commentMore
-            actions
-            onClick={handleReserve}
-            className={`flex items-center gap-1 text-sm ${
-              reserved ? "text-green-600" : "text-gray-700"
-            }`}
+            onClick={onReservar}
+            disabled={reservado} // Desativa o botão se já estiver reservado
           >
-            {reserved ? (
-              <BookmarkCheck size={18} />
+            {reservado ? (
+              <BookmarkCheck size={18} className="text-green-800" />
             ) : (
               <BookmarkPlus size={18} />
             )}
-            {reserved ? "Reservado" : "Reservar"}
+            {reservado ? "Reservado" : "Reservar"}
           </button>
 
           <a
