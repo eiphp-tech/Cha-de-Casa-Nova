@@ -1,11 +1,32 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
+import presentes from "../dados/presentes"
 import Cards from "../components/cards"
+import { buscarReservas, reservar, desreservar } from "../services/api"
 
 import batedeira from "../assets/image/batedeira.svg"
 import talheres from "../assets/image/talheres.svg"
 import panelas from "../assets/image/panelas.svg"
 
 const ListaPresentes = () => {
+  const [reservados, setReservados] = useState([])
+
+  useEffect(() => {
+    async function carregarReservas() {
+      const dados = await buscarReservas()
+      setReservados(dados)
+    }
+    carregarReservas()
+  }, [])
+
+  const toggleReserva = async (id) => {
+    if (reservados.includes(id)) {
+      await desreservar(id)
+    } else {
+      await reservar(id)
+    }
+    const atualizados = await buscarReservas()
+    setReservados(atualizados)
+  }
   return (
     <main className="relative w-full min-h-screen flex flex-col justify-center items-center pb-10 overflow-x-hidden">
       <span className="font-gotu text-2xl text-gray-950 font-bold -translate-x-16 -translate-y-8">
@@ -50,7 +71,16 @@ const ListaPresentes = () => {
         className="absolute top-56 -left-48 h-[900px] w-auto rotate-12 -z-10"
       />
 
-      <section className="grid grid-cols-2 gap-4 mt-10 px-4"></section>
+      <section className="grid grid-cols-2 gap-4 mt-10 px-4">
+        {presentes.map((presente) => (
+          <Cards
+            key={presente.id}
+            {...presente}
+            reservado={reservados.includes(presente.id)}
+            onReservar={() => toggleReserva(presente.id)}
+          />
+        ))}
+      </section>
 
       <img
         src={panelas}

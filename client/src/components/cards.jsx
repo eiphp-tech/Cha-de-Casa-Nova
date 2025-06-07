@@ -1,17 +1,6 @@
-import React, { useState } from "react"
-import { BookmarkPlus, BookmarkCheck } from "lucide-react"
-
-const Cards = ({ imageURL, title, link }) => {
-  const [reserved, setReserved] = useState(false)
-
-  const handleReserve = () => {
-    if (!reserved) {
-      setReserved(true)
-    }
-  }
-
+const Cards = ({ imageURL, title, link, reservado, onReservar }) => {
   return (
-    <section className="w-80  bg-white rounded-xl shadow-md overflow-hidden">
+    <section className="w-80 bg-white rounded-xl shadow-md overflow-hidden">
       <div className="h-40 bg-gray-300 flex items-center justify-center">
         <img
           src={imageURL}
@@ -21,22 +10,20 @@ const Cards = ({ imageURL, title, link }) => {
       </div>
       <div className="p-4 flex flex-col gap-2">
         <h3 className="text-lg font-instru">{title}</h3>
-
         <div className="flex justify-between items-center">
           <button
-            onClick={handleReserve}
+            onClick={onReservar}
             className={`flex items-center gap-1 text-sm ${
-              reserved ? "text-green-600" : "text-gray-700"
+              reservado ? "text-green-600" : "text-gray-700"
             }`}
           >
-            {reserved ? (
+            {reservado ? (
               <BookmarkCheck size={18} />
             ) : (
               <BookmarkPlus size={18} />
             )}
-            {reserved ? "Reservado" : "Reservar"}
+            {reservado ? "Reservado" : "Reservar"}
           </button>
-
           <a
             href={link}
             target="_blank"
@@ -50,5 +37,3 @@ const Cards = ({ imageURL, title, link }) => {
     </section>
   )
 }
-
-export default Cards
