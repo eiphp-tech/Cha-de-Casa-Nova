@@ -56,8 +56,10 @@ const ListaPresentes = () => {
           vocês e queremos compartilhar algumas informações importantes sobre a
           nossa lista de presentes. <br />
           Para manter a harmonia e o estilo que escolhemos para nosso lar,
-          optamos por uma paleta de cores em{" "}
-          <strong>preto, branco, cinza e inox</strong>. <br />
+          optamos por uma paleta de cores em
+          <strong> preto, branco, cinza e inox</strong>. Além disso, todos os
+          eletrodomésticos devem ser na voltagem <strong> 220V</strong>.
+          <br />
           Na lista abaixo, vocês encontrarão alguns
           <strong> cards com sugestões de presentes. </strong>
           Cada item tem dois botões: <br />
