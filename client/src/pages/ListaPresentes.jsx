@@ -18,7 +18,7 @@ const ListaPresentes = () => {
 
   const handleReservar = (id) => {
     fetch(
-      `<span class="math-inline">\{API\_URL\}/api/presentes/</span>{id}/reservar`,
+      `<span class="math-inline">/${API_URL}/api/presentes/</span>${id}/reservar`,
       {
         method: "PUT",
       }
