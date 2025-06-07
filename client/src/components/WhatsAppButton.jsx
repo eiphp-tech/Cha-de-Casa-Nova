@@ -2,7 +2,7 @@ import React from "react"
 import { ArrowRight } from "lucide-react"
 
 const WhatsAppButton = () => {
-  const phone = "553496823050"
+  const phone = "5534997708340"
   const message = "Olá! Confirmo minha presença."
   const encodedMessage = encodeURIComponent(message)
   const whatsappUrl = `https://wa.me/${phone}?text=${encodedMessage}`
