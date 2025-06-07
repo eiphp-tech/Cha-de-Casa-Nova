@@ -7,18 +7,22 @@ import panelas from "../assets/image/panelas.svg"
 
 const ListaPresentes = () => {
   const [presentes, setPresentes] = useState([])
+  const API_URL = "https://api-lista-presentes.onrender.com"
 
   useEffect(() => {
-    fetch("http://localhost:3001/api/presentes")
+    fetch(`${API_URL}/api/presentes`)
       .then((response) => response.json())
       .then((data) => setPresentes(data))
       .catch((error) => console.error("Erro ao buscar presentes:", error))
   }, [])
 
   const handleReservar = (id) => {
-    fetch(`http://localhost:3001/api/presentes/${id}/reservar`, {
-      method: "PUT",
-    })
+    fetch(
+      `<span class="math-inline">\{API\_URL\}/api/presentes/</span>{id}/reservar`,
+      {
+        method: "PUT",
+      }
+    )
       .then((response) => response.json())
       .then(() => {
         // Atualiza o estado local para refletir a mudança sem recarregar a página

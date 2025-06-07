@@ -1,7 +1,7 @@
 import React from "react"
 import Button from "../components/button"
 import ExternalActionButton from "../components/ExternalActionButton"
-import WhatsAppButton from "../components/whatsAppButton"
+import WhatsAppButton from "../components/WhatsAppButton"
 
 import batedeira from "../assets/image/batedeira.svg"
 import talheres from "../assets/image/talheres.svg"

@@ -1,5 +1,5 @@
 import { BookmarkPlus, BookmarkCheck } from "lucide-react"
-import React, { useState } from "react"
+import React from "react"
 
 const Cards = ({ title, imageURL, link, reservado, onReservar }) => {
   return (
