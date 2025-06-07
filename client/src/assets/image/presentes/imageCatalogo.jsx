@@ -1,7 +1,7 @@
 import Facas from "./jogo-de-facas.png"
 import Sanduicheira from "./sanduicheira.png"
-import assadeira from "./assadeira-com-tampa.png"
-import cestoLixo from "./cesto-de-lixo.png"
+import assadeiraTampa from "./assadeira-com-tampa.png"
+import cestoLixo from "./cesto-para-lixo.png"
 import coberdrom from "./coberdrom.png"
 import jogoDeCopos from "./jogo-de-copos.png"
 import jogoDeLencol from "./jogo-de-lencol.png"
@@ -14,11 +14,11 @@ import jogoDeTalheres from "./jogo-de-talheres.png"
 import jogoDeToalhas from "./jogo-de-toalhas.png"
 import KitDeBowls from "./kit-de-bowls.png"
 import escorredores from "./kit-de-escorredores.png"
-import ferramentas from "./kit-de-ferramentas.png"
-import lavabo from "./kit-de-lavabo.png"
-import medidores from "./kit-de-medidores.png"
+import ferramentas from "./kit-jogo-de-ferramentas.png"
+import lavabo from "./kit-lavabo.png"
+import medidores from "./kit-medidores.png"
 import manta from "./manta-cobertor.png"
-import organizaodorLanvaderia from "./organizador-lavanderia.png"
+import organizaodorLanvaderia from "./organizador-de-lavanderia.png"
 import organizaodorGeladeira from "./organizadores-de-geladeira.png"
 import panelaP from "./panela-de-pressao.png"
 import peneira from "./peneira-de-inox.png"
@@ -36,12 +36,12 @@ import galheteiro from "./galheteiro-de-vidro.png"
 const imageCatalog = {
   "jogo-de-facas": Facas,
   sanduicheira: Sanduicheira,
-  assadeira: assadeira,
-  "cesto-de-lixo": cestoLixo,
+  "assadeira-com-tampa": assadeiraTampa,
+  "cesto-para-lixo": cestoLixo,
   coberdrom: coberdrom,
   "jogo-de-copos": jogoDeCopos,
-  "jogo-de-lencol": jogoDeLencol,
-  "jogo-de-potes": jogoDePotes,
+  "jogo-de-lençol": jogoDeLencol,
+  "jogo-de-potes-de-plastico": jogoDePotes,
   "jogo-de-caneca": jogoDeCaneca,
   "jogo-americano": jogoAmericano,
   "jogo-de-formas": jogoDeFormas,
@@ -50,11 +50,11 @@ const imageCatalog = {
   "jogo-de-toalhas": jogoDeToalhas,
   "kit-de-bowls": KitDeBowls,
   "kit-de-escorredores": escorredores,
-  "kit-de-ferramentas": ferramentas,
-  "kit-de-lavabo": lavabo,
-  "kit-de-medidores": medidores,
-  manta: manta,
-  "organizador-lavanderia": organizaodorLanvaderia,
+  "kit-jogo-de-ferramentas": ferramentas,
+  "kit-lavabo": lavabo,
+  "kit-medidores": medidores,
+  "manta-cobertor": manta,
+  "organizador-de-lavanderia": organizaodorLanvaderia,
   "organizadores-de-geladeira": organizaodorGeladeira,
   "panela-de-pressao": panelaP,
   "peneira-de-inox": peneira,
@@ -64,7 +64,7 @@ const imageCatalog = {
   ralador: ralador,
   "tabua-de-corte": tabuaDeCorte,
   ventilador: ventilador,
-  chaleira: chaleira,
+  "chaleira-eletrica": chaleira,
   cumbucas: cumbucas,
   "escorredor-de-talher": talher,
   "galheteiro-de-vidro": galheteiro,
