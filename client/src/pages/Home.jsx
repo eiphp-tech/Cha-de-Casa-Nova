@@ -143,7 +143,7 @@ const Home = () => {
         <motion.div variants={fadeIn}>
           <ExternalActionButton
             text="Local do Evento"
-            href="https://maps.app.goo.gl/37GYHUh38pRPUACG8"
+            href="https://maps.app.goo.gl/bp8N3N9qxAWS8v3t9"
           />
         </motion.div>
         <motion.div variants={fadeIn}>
@@ -189,7 +189,7 @@ const Home = () => {
           >
             <MapPin className="bg-black rounded-full text-white p-1 w-8 h-8" />
           </motion.div>
-          <p>Rua Serra Paranapanema, XXX - São Jorge</p>
+          <p>Rua Serra Paranapanema,249 - São Jorge</p>
         </div>
       </motion.section>
 
