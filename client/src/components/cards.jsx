@@ -3,8 +3,8 @@ import React from "react"
 
 const Cards = ({ title, imageSlug, link, reservado, onReservar }) => {
   return (
-    <section className="w-80 bg-white rounded-xl shadow-2xl shadow-black overflow-hidden">
-      <div className="h-40 bg-gray-300 flex items-center justify-center">
+    <section className="w-[320] bg-white rounded-xl shadow-2xl shadow-black overflow-hidden">
+      <div className="h-min bg-gray-300 flex items-center justify-center">
         <img
           src={imageSlug}
           alt={title}
