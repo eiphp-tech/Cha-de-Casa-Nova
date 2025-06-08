@@ -162,7 +162,7 @@ const Home = () => {
           <p className="text-2xl font-gotu">Sábado</p>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <p className="text-5xl font-gotu">05</p>
+          <p className="text-5xl font-gotu">06</p>
           <p className="text-5xl font-gotu">Julho</p>
         </div>
         <div className="flex flex-col items-center justify-center border-t border-b border-black w-[95px] pl-1 pr-1">
