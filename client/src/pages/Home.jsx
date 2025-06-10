@@ -158,14 +158,14 @@ const Home = () => {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        <div className="flex flex-col items-center justify-center border-t border-b border-black w-[95px] pl-1 pr-1">
-          <p className="text-2xl font-gotu">Sábado</p>
+        <div className="flex flex-col items-center justify-center border-t border-b border-black w-min pl-1 pr-1">
+          <p className="text-2xl font-gotu">Domingo</p>
         </div>
         <div className="flex flex-col items-center justify-center">
           <p className="text-5xl font-gotu">06</p>
           <p className="text-5xl font-gotu">Julho</p>
         </div>
-        <div className="flex flex-col items-center justify-center border-t border-b border-black w-[95px] pl-1 pr-1">
+        <div className="flex flex-col items-center justify-center border-t border-b border-black w-[106px] pl-1 pr-1">
           <p className="text-2xl font-gotu">ás 16h</p>
         </div>
       </motion.section>
@@ -189,7 +189,7 @@ const Home = () => {
           >
             <MapPin className="bg-black rounded-full text-white p-1 w-8 h-8" />
           </motion.div>
-          <p>Rua Serra Paranapanema,249 - São Jorge</p>
+          <p>Rua Serra Paranapanema, 249 - São Jorge</p>
         </div>
       </motion.section>
 

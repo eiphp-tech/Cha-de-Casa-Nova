@@ -66,8 +66,9 @@ const ListaPresentes = () => {
           Um para <strong>reservar o presente</strong>, garantindo que ninguém
           mais escolha o mesmo; <br />
           Outro com um <strong>link de sugestão de compra</strong>, para
-          facilitar a sua escolha. Agradecemos de coração por todo carinho,
-          apoio e por fazerem parte da nossa história.
+          facilitar a sua escolha.
+          <br /> Agradecemos de coração por todo carinho, apoio e por fazerem
+          parte da nossa história.
         </p>
       </section>
 
