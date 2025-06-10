@@ -32,6 +32,8 @@ import chaleira from "./chaleira-eletrica.png"
 import cumbucas from "./cumbucas.png"
 import talher from "./escorredor-de-talher.png"
 import galheteiro from "./galheteiro-de-vidro.png"
+import kitSaladeira from "./kit-Tigela-saladeira.png"
+import kiUtensilios from "kit-Utensilios.png"
 
 const imageCatalog = {
   "jogo-de-facas": Facas,
@@ -68,6 +70,8 @@ const imageCatalog = {
   cumbucas: cumbucas,
   "escorredor-de-talher": talher,
   "galheteiro-de-vidro": galheteiro,
+  "kit-Tigela-saladeira": kitSaladeira,
+  "kit-utensilios": kiUtensilios,
 }
 
 export default imageCatalog
