@@ -35,6 +35,7 @@ import galheteiro from "./galheteiro-de-vidro.png"
 import kitSaladeira from "./kit-Tigela-saladeira.jpg"
 import kiUtensilios from "./kit-Utensilios.jpg"
 import potesVidro from "./potes-vidro.png"
+import escorredorLouca from "./escorredor-de-louca.png"
 
 const imageCatalog = {
   "jogo-de-facas": Facas,
@@ -74,6 +75,7 @@ const imageCatalog = {
   "kit-Tigela-saladeira": kitSaladeira,
   "kit-utensilios": kiUtensilios,
   "potes-vidro": potesVidro,
+  "escorredor-de-louca": escorredorLouca,
 }
 
 export default imageCatalog
