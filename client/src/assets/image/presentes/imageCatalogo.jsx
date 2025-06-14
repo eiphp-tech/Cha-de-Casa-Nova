@@ -36,6 +36,7 @@ import kitSaladeira from "./kit-Tigela-saladeira.jpg"
 import kiUtensilios from "./kit-Utensilios.jpg"
 import potesVidro from "./potes-vidro.png"
 import escorredorLouca from "./escorredor-de-louca.png"
+import airFryer from "./fritadeira-air-fryer.png"
 
 const imageCatalog = {
   "jogo-de-facas": Facas,
@@ -76,6 +77,7 @@ const imageCatalog = {
   "kit-utensilios": kiUtensilios,
   "potes-vidro": potesVidro,
   "escorredor-de-louca": escorredorLouca,
+  "fritadeira-air-fryer": airFryer,
 }
 
 export default imageCatalog
