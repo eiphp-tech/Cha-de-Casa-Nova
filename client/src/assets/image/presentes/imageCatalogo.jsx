@@ -37,6 +37,8 @@ import kiUtensilios from "./kit-Utensilios.jpg"
 import potesVidro from "./potes-vidro.png"
 import escorredorLouca from "./escorredor-de-louca.png"
 import airFryer from "./fritadeira-air-fryer.png"
+import panelaDeArroz from "./panela-eletrica-de-arroz.png"
+import varalDeChao from "./varal-de-chao.png"
 
 const imageCatalog = {
   "jogo-de-facas": Facas,
@@ -78,6 +80,8 @@ const imageCatalog = {
   "potes-vidro": potesVidro,
   "escorredor-de-louca": escorredorLouca,
   "fritadeira-air-fryer": airFryer,
+  "panela-eletrica-de-arroz": panelaDeArroz,
+  "varal-de-chao": varalDeChao,
 }
 
 export default imageCatalog
