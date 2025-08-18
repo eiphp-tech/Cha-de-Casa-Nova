@@ -1,5 +1,5 @@
 import batedeira from "./presentes/batedeira.png"
-import talheres from "./presentes/talheres.png"
+import talheres from "./presentes/Talheres.png"
 import JogoDeCopos from "./presentes/JogoDeCopos.png"
 import liquidificador from "./presentes/liquidificador.png"
 import JogoAmericano from "./presentes/JogoAmericano.png"
