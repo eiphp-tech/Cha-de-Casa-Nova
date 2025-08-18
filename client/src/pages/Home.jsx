@@ -98,14 +98,6 @@ const Home = () => {
             casa Nova
           </h1>
         </motion.div>
-        <motion.p
-          className="text-2xl font-instru font-medium translate-x-10 -translate-y-3"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.8 }}
-        >
-          para as mulheres
-        </motion.p>
 
         <motion.p
           className="bg-black text-white p-2 -pt-2 rounded-sm text-2xl font-instru font-medium"
@@ -113,7 +105,7 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
         >
-          Eduarda e Pedro H
+          Luanna & Fransergio
         </motion.p>
       </motion.header>
 
@@ -143,7 +135,7 @@ const Home = () => {
         <motion.div variants={fadeIn}>
           <ExternalActionButton
             text="Local do Evento"
-            href="https://maps.app.goo.gl/bp8N3N9qxAWS8v3t9"
+            href="https://maps.app.goo.gl/YawrRbdT3s1raMrZ6"
           />
         </motion.div>
         <motion.div variants={fadeIn}>
@@ -161,12 +153,12 @@ const Home = () => {
         <div className="flex flex-col items-center justify-center border-t border-b border-black w-min pl-1 pr-1">
           <p className="text-2xl font-gotu">Domingo</p>
         </div>
-        <div className="flex flex-col items-center justify-center">
-          <p className="text-5xl font-gotu">06</p>
-          <p className="text-5xl font-gotu">Julho</p>
+        <div className="flex flex-col items-center justify-center translate-y-[10px]">
+          <p className="text-5xl font-gotu">14</p>
+          <p className="text-2xl font-gotu font-bold">Setembro</p>
         </div>
         <div className="flex flex-col items-center justify-center border-t border-b border-black w-[106px] pl-1 pr-1">
-          <p className="text-2xl font-gotu">ás 16h</p>
+          <p className="text-2xl font-gotu">ás 13:30</p>
         </div>
       </motion.section>
 
@@ -189,7 +181,7 @@ const Home = () => {
           >
             <MapPin className="bg-black rounded-full text-white p-1 w-8 h-8" />
           </motion.div>
-          <p>Rua Serra Paranapanema, 249 - São Jorge</p>
+          <p>R. Raposa-do-Campo, 510 - Pequis</p>
         </div>
       </motion.section>
 
@@ -213,7 +205,7 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 0.8 }}
         >
-          - Eduarda & Pedro H
+          - Luanna & Fransergio
         </motion.p>
       </motion.section>
 

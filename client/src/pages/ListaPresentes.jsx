@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import Cards from "../components/cards"
-import imageCatalog from "../assets/image/presentes/imageCatalogo"
+import imageCatalog from "../assets/image/imageCatalogo"
 
 import batedeira from "../assets/image/batedeira.svg"
 import talheres from "../assets/image/talheres.svg"
@@ -57,7 +57,7 @@ const ListaPresentes = () => {
           nossa lista de presentes. <br />
           Para manter a harmonia e o estilo que escolhemos para nosso lar,
           optamos por uma paleta de cores em
-          <strong> preto, branco, cinza e inox</strong>. Além disso, todos os
+          <strong> preto, branco e cinza</strong>. Além disso, todos os
           eletrodomésticos devem ser na voltagem <strong> 220V</strong>.
           <br />
           Na lista abaixo, vocês encontrarão alguns

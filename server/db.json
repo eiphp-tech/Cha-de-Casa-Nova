@@ -1,289 +1,233 @@
 [
   {
     "id": 1,
-    "title": "Sanduicheira",
-    "imageSlug": "sanduicheira",
-    "link": "https://www.amazon.com.br/dp/B076FHDTB3?ref=cm_sw_r_cso_wa_apan_dp_250EQT9A83M7CEAHHE2Q&ref_=cm_sw_r_cso_wa_apan_dp_250EQT9A83M7CEAHHE2Q&social_share=cm_sw_r_cso_wa_apan_dp_250EQT9A83M7CEAHHE2Q&previewDoh=1&previewDohDeal=1&th=1",
+    "title": "Assadeiras Marinex",
+    "imageSlug": "assadeirasMarinex",
+    "link": "https://shopee.com.br/product/1273287514/19799545201?d_id=3313d&uls_trackid=53fupnd902h6&utm_content=4qmMMYsc92eXz7xT27YS3kkAuHR",
     "reservado": false
   },
   {
     "id": 2,
-    "title": "Jogo de Facas",
-    "imageSlug": "jogo-de-facas",
-    "link": "https://www.amazon.com.br/dp/B07JJNL9M6?ref=cm_sw_r_cso_wa_apan_dp_8QQE0FXRJKQZKCF91EG4&ref_=cm_sw_r_cso_wa_apan_dp_8QQE0FXRJKQZKCF91EG4&social_share=cm_sw_r_cso_wa_apan_dp_8QQE0FXRJKQZKCF91EG4&previewDoh=1&previewDohDeal=1",
+    "title": "Batedeira",
+    "imageSlug": "batedeira",
+    "link": "https://shopee.com.br/product/1050213612/18199069888?d_id=3313d&uls_trackid=53fuq5p400fk&utm_content=4qmMMYsc8Nz4HJhYPZh8r1PATu9&is_from_login=true",
     "reservado": false
   },
   {
     "id": 3,
-    "title": "Jogo de Pratos",
-    "imageSlug": "jogo-de-pratos",
-    "link": "https://www.amazon.com.br/dp/B07CP65QZJ?ref=cm_sw_r_cso_wa_apan_dp_4VPCB1X3BV8QPK6CBQVZ&ref_=cm_sw_r_cso_wa_apan_dp_4VPCB1X3BV8QPK6CBQVZ&social_share=cm_sw_r_cso_wa_apan_dp_4VPCB1X3BV8QPK6CBQVZ&previewDoh=1&previewDohDeal=1",
+    "title": "Kit pia de cozinha",
+    "imageSlug": "KitPiaDeCozinha",
+    "link": "https://br.shp.ee/UwVg1np",
     "reservado": false
   },
   {
     "id": 4,
-    "title": "Jogo de Copos",
-    "imageSlug": "jogo-de-copos",
-    "link": "https://shopee.com.br/product/500735815/19699557388?uls_trackid=52tc99fd0066&utm_campaign=id_K9ZoEdRVha&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hknrw56q2o",
+    "title": "Liquidificador Mondial",
+    "imageSlug": "liquidificador",
+    "link": "https://shopee.com.br/product/1050213612/18397624887?d_id=3313d&uls_trackid=53fuqlou00fe&utm_content=4qmMMYsbsJbjgoBp5Cd6NJiKvbR",
     "reservado": false
   },
   {
     "id": 5,
-    "title": "Ralador",
-    "imageSlug": "ralador",
-    "link": "https://shopee.com.br/product/394731864/21397417195?uls_trackid=52tc99l400m6&utm_campaign=id_10FcmR9hbwg&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hknwvzbdeo",
+    "title": "Kit 10 Panos de Prato",
+    "imageSlug": "KitPanosDePrato",
+    "link": "https://br.shp.ee/1eFmgUY",
     "reservado": false
   },
   {
     "id": 6,
-    "title": "Tábua de Corte",
-    "imageSlug": "tabua-de-corte",
-    "link": "https://shopee.com.br/product/1209188883/23598103586?uls_trackid=52tc99qa006h&utm_campaign=id_Ziy1m8DIp8&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hko2doo263",
+    "title": "Jogo Tapete",
+    "imageSlug": "JogoTapete",
+    "link": "https://br.shp.ee/Lepg9V4",
     "reservado": false
   },
   {
     "id": 7,
-    "title": "Jogo de Caneca",
-    "imageSlug": "jogo-de-caneca",
-    "link": "https://shopee.com.br/product/298408189/23497756835?uls_trackid=52tc99vs00ln&utm_campaign=id_APfKQPW3E2&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hko786r2jy",
+    "title": "Air Fryer",
+    "imageSlug": "airFryer",
+    "link": "https://br.shp.ee/kUbpbv2",
     "reservado": false
   },
   {
     "id": 8,
-    "title": "Porta Detergente",
-    "imageSlug": "porta-detergente",
-    "link": "https://shopee.com.br/product/402450553/18850902830?uls_trackid=52tc9abj0068&utm_campaign=id_mTnIH7tHW6&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hkoheizpo1",
+    "title": "Potes de Vidro",
+    "imageSlug": "PotesVidro",
+    "link": "https://shopee.com.br/product/361947998/23497378372?d_id=3313d&uls_trackid=53fus5rc02ho&utm_content=4qmMMYsbrA3pF4YFe8jd8yf1i1V",
     "reservado": false
   },
   {
     "id": 9,
-    "title": "Peneira de Inox",
-    "imageSlug": "peneira-de-inox",
-    "link": "https://shopee.com.br/product/467248268/22398032195?uls_trackid=52tcec8i006h&utm_campaign=id_nZSCdIVCGY&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hpjvsv3qy1",
+    "title": "Kit 4 Peças Aço Inox",
+    "imageSlug": "pecaInox",
+    "link": "https://shopee.com.br/product/828329031/22793938604?d_id=3313d&uls_trackid=53fuvqbs00fk&utm_content=4qmMMYsbqaDZVJPeQssaMdwokns",
     "reservado": false
   },
   {
     "id": 10,
-    "title": "Jogo de Formas",
-    "imageSlug": "jogo-de-formas",
-    "link": "https://shopee.com.br/product/436988059/23511503273?uls_trackid=52tceckh0063&utm_campaign=id_XBMwJ1aJP0&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hpk77c17c3",
+    "title": "Sanduicheira Brunch",
+    "imageSlug": "Sanduicheira",
+    "link": "https://br.shp.ee/zJgESRP",
     "reservado": false
   },
   {
     "id": 11,
-    "title": "Jogo de potes de Plástico",
-    "imageSlug": "jogo-de-potes-de-plastico",
-    "link": "https://shopee.com.br/product/449434162/18298053473?uls_trackid=52tcectf0068&utm_campaign=id_WlQPHNLw94&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hpkexvvw67",
+    "title": "3 Assadeiras",
+    "imageSlug": "Assadeiras",
+    "link": "https://br.shp.ee/q9Da4Lh",
     "reservado": false
   },
   {
     "id": 12,
-    "title": "Jogo de Talheres",
-    "imageSlug": "jogo-de-talheres",
-    "link": "https://shopee.com.br/product/895706462/20099301574?uls_trackid=52tced8s00ct&utm_campaign=id_YCAiVML4rS&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hpkpv4epxf",
+    "title": "Cortina Blackout",
+    "imageSlug": "Cortina",
+    "link": "https://br.shp.ee/LZskK8c",
     "reservado": false
   },
   {
     "id": 13,
-    "title": "Kit de Escorredores",
-    "imageSlug": "kit-de-escorredores",
-    "link": "https://shopee.com.br/product/660421260/18997870495?uls_trackid=52tcfgva00ct&utm_campaign=id_AphJm34G0g&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hqfwgg7e71",
+    "title": "Coberta Casal",
+    "imageSlug": "Coberta",
+    "link": "https://br.shp.ee/W3WkhVc",
     "reservado": false
   },
   {
     "id": 14,
-    "title": "Kit de Bowls ",
-    "imageSlug": "kit-de-bowls",
-    "link": "https://shopee.com.br/product/593173038/18899612111?uls_trackid=52tcg5sr00ct&utm_campaign=id_mBWFMkDkdO&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hqy16iwj99",
+    "title": "Peças de Utensílios",
+    "imageSlug": "Utensilios",
+    "link": "https://br.shp.ee/NTsvUU8",
     "reservado": false
   },
   {
     "id": 15,
-    "title": "Cumbucas",
-    "imageSlug": "cumbucas",
-    "link": "https://shopee.com.br/product/391307963/22397835507?uls_trackid=52tcg61s01m6&utm_campaign=id_10NdRhZ12j4&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hqy5iyv93m",
+    "title": "Lixeira Pedal Inox",
+    "imageSlug": "Lixeira",
+    "link": "https://br.shp.ee/u6pKuej",
     "reservado": false
   },
   {
     "id": 16,
-    "title": "Jogo Americano",
-    "imageSlug": "jogo-americano",
-    "link": "https://shopee.com.br/product/1377363792/22798524174?uls_trackid=52tcg6e50064&utm_campaign=id_107JyMjNYEc&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hqyg7oocmu",
+    "title": "Jogo de Talheres",
+    "imageSlug": "Talheres",
+    "link": "https://br.shp.ee/iogVRDq",
     "reservado": false
   },
   {
     "id": 17,
-    "title": "Porta Frios",
-    "imageSlug": "porta-frios",
-    "link": "https://shopee.com.br/product/251229295/16351767712?uls_trackid=52tcg6lh006h&utm_campaign=id_Do5isZE2ME&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hqynm9h663",
+    "title": "Potes Herméticos",
+    "imageSlug": "PotesHermeticos",
+    "link": "https://br.shp.ee/PPCnKCd",
     "reservado": false
   },
   {
     "id": 18,
-    "title": "Galheteiro de Vidro",
-    "imageSlug": "galheteiro-de-vidro",
-    "link": "https://shopee.com.br/product/297747835/20798099502?uls_trackid=52tcg6v300ln&utm_campaign=id_p2618eYeKY&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hqyvxo6k1e",
+    "title": "Aparelho de Jantar",
+    "imageSlug": "AparelhoDeJantar",
+    "link": "https://br.shp.ee/USHxaWX",
     "reservado": false
   },
   {
     "id": 19,
-    "title": "Assadeira com Tampa",
-    "imageSlug": "assadeira-com-tampa",
-    "link": "https://shopee.com.br/product/442351243/23198111735?uls_trackid=52tcg7cu0063&utm_campaign=id_zGqYduIeNO&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hqz8xhrtm5",
+    "title": "Escorredor de Louças",
+    "imageSlug": "Escorredor",
+    "link": "https://br.shp.ee/isHdV2U",
     "reservado": false
   },
   {
     "id": 20,
-    "title": "Jogo de Lençol",
-    "imageSlug": "jogo-de-lencol",
-    "link": "https://shopee.com.br/product/400267237/8099834734?uls_trackid=52tci78r00ct&utm_campaign=id_WsUF7Eqa0g&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hsigrcfwou",
+    "title": "TABUA DE CORTE",
+    "imageSlug": "TabuaDeCorte",
+    "link": "https://br.shp.ee/LJSaSd2",
     "reservado": false
   },
   {
     "id": 21,
-    "title": "Kit Lavabo",
-    "imageSlug": "kit-lavabo",
-    "link": "https://shopee.com.br/product/1354599350/23298160379?uls_trackid=52tci8i60064&utm_campaign=id_LnNJCbmp7i&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hsjioxc3hh",
+    "title": "Conjunto Escorredor",
+    "imageSlug": "ConjuntoEscorredor",
+    "link": "https://br.shp.ee/vvBYeGB",
     "reservado": false
   },
   {
     "id": 22,
-    "title": "Cesto Para Lixo",
-    "imageSlug": "cesto-para-lixo",
-    "link": "https://shopee.com.br/product/1379143262/18697978570?uls_trackid=52tci9n200ln&utm_campaign=id_DwBBCBcHhi&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hskgpy44u5",
+    "title": "Kit medidores",
+    "imageSlug": "medidores",
+    "link": "https://br.shp.ee/5VzFzpM",
     "reservado": false
   },
   {
     "id": 23,
-    "title": "Kit Medidores",
-    "imageSlug": "kit-medidores",
-    "link": "https://shopee.com.br/product/319978539/11089207854?uls_trackid=52tci9ve0063&utm_campaign=id_LzuYvdOXX8&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hskozzowdh",
+    "title": "Kit Bowl Porcelana",
+    "imageSlug": "Bowl",
+    "link": "https://br.shp.ee/CYyWUTb",
     "reservado": false
   },
   {
     "id": 24,
-    "title": "Porta Temperos",
-    "imageSlug": "porta-temperos",
-    "link": "https://shopee.com.br/product/1511378113/23998429200?uls_trackid=52tciabr0168&utm_campaign=id_VEpKUY6iQE&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hskzse1dg4",
+    "title": "Jogo Americano",
+    "imageSlug": "JogoAmericano",
+    "link": "https://br.shp.ee/39fir9E",
     "reservado": false
   },
   {
     "id": 25,
-    "title": "Jogo de Toalhas",
-    "imageSlug": "jogo-de-toalhas",
-    "link": "https://shopee.com.br/product/1264071501/23993063722?uls_trackid=52tck4tr00ln&utm_campaign=id_p0R0awMuM6&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5htzvyp3a1u",
+    "title": "Taça Diamond",
+    "imageSlug": "TacaDiamond",
+    "link": "https://br.shp.ee/M8CVvc9",
     "reservado": false
   },
   {
     "id": 26,
-    "title": "Organizadores de Geladeira",
-    "imageSlug": "organizadores-de-geladeira",
-    "link": "https://shopee.com.br/product/1512108548/18598128747?uls_trackid=52tck58m0063&utm_campaign=id_9OtKbVb4CA&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hu16eanhh9",
+    "title": "Porta Condimentos",
+    "imageSlug": "Condimentos",
+    "link": "https://br.shp.ee/xeBCVXM",
     "reservado": false
   },
   {
     "id": 27,
-    "title": "Escorredor De Talher",
-    "imageSlug": "escorredor-de-talher",
-    "link": "https://shopee.com.br/product/449352625/21597750807?uls_trackid=52tck5j4006h&utm_campaign=id_YTjO11mj0c&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hu1fgpwi4o",
+    "title": "Porta Frios",
+    "imageSlug": "PortaFrios",
+    "link": "https://br.shp.ee/z4DYwGz",
     "reservado": false
   },
   {
     "id": 28,
-    "title": "Organizador de Lavanderia",
-    "imageSlug": "organizador-de-lavanderia",
-    "link": "https://shopee.com.br/product/316557325/18399398811?uls_trackid=52tck5u600ln&utm_campaign=id_96Pt46q0WA&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hu1q3bh6gf",
+    "title": "Panela de Pressão",
+    "imageSlug": "PanelaDePressao",
+    "link": "https://br.shp.ee/Q2acdcW",
     "reservado": false
   },
   {
     "id": 29,
-    "title": "Chaleira Elétrica",
-    "imageSlug": "chaleira-eletrica",
-    "link": "https://produto.mercadolivre.com.br/MLB-4325969482-chaleira-jarra-eletrica-modern-inox-preta-220v-e-110v-15l-_JM",
+    "title": " FACAS DE CARNE",
+    "imageSlug": "FacasDeCarne",
+    "link": "https://br.shp.ee/CDQQ7mV",
     "reservado": false
   },
   {
     "id": 30,
-    "title": "Ventilador",
-    "imageSlug": "ventilador",
-    "link": "https://www.amazon.com.br/dp/B076HSSN8G?ref=cm_sw_r_cso_wa_apan_dp_MN325A1YS7EP98WG29B0&ref_=cm_sw_r_cso_wa_apan_dp_MN325A1YS7EP98WG29B0&social_share=cm_sw_r_cso_wa_apan_dp_MN325A1YS7EP98WG29B0&previewDoh=1&th=1",
+    "title": "Jogo de Copos",
+    "imageSlug": "JogoDeCopos",
+    "link": "https://br.shp.ee/cPTGbzu",
     "reservado": false
   },
   {
     "id": 31,
-    "title": "Coberdrom",
-    "imageSlug": "coberdrom",
-    "link": "https://shopee.com.br/product/311485828/14249885930?uls_trackid=52tco8al0068&utm_campaign=id_jZrawhtYM6&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hx6c9yeq4j",
+    "title": "Tigela Bowl",
+    "imageSlug": "TigelaBowl",
+    "link": "https://br.shp.ee/9bdrfte",
     "reservado": false
   },
   {
     "id": 32,
-    "title": "Manta Cobertor",
-    "imageSlug": "manta-cobertor",
-    "link": "https://shopee.com.br/product/1167196167/22993233795?uls_trackid=52tco8vk0166&utm_campaign=id_IixcVbhKmo&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5hx6vhdtjf5",
+    "title": "Jogo De Toalhas",
+    "imageSlug": "JogoDeToalhas",
+    "link": "https://br.shp.ee/RDhKHfQ",
     "reservado": false
   },
   {
     "id": 33,
-    "title": "Kit Jogo De Ferramentas",
-    "imageSlug": "kit-jogo-de-ferramentas",
-    "link": "https://www.mercadolivre.com.br/kit-jogo-de-ferramentas-completa-com-129-pecas-sparta/p/MLB30244982?highlight=true&headerTopBrand=false#reviews",
-    "reservado": false
-  },
-  {
-    "id": 34,
-    "title": "Panela de Pressão",
-    "imageSlug": "panela-de-pressao",
-    "link": "https://shopee.com.br/product/521604773/10971341240?uls_trackid=52tcs893016h&utm_campaign=id_CU8d8yUU3q&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d5i18ync7n9u",
-    "reservado": false
-  },
-  {
-    "id": 35,
-    "title": "Kit Utensílios",
-    "imageSlug": "kit-utensilios",
-    "link": "https://s.shopee.com.br/6KsYxE1TzF?share_channel_code=1",
-    "reservado": false
-  },
-  {
-    "id": 36,
-    "title": "Kit Tigela Saladeira",
-    "imageSlug": "kit-Tigela-saladeira",
-    "link": "https://s.shopee.com.br/7Kl69QsqyM?share_channel_code=1",
-    "reservado": false
-  },
-  {
-    "id": 37,
-    "title": "Potes Vidro",
-    "imageSlug": "potes-vidro",
-    "link": "https://shopee.com.br/product/296530047/22198303822?uls_trackid=52ueuujs00m6&utm_campaign=id_TvlrUJGDEI&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d68pohh3scz3",
-    "reservado": false
-  },
-  {
-    "id": 38,
-    "title": "Escorredor De Louça",
-    "imageSlug": "escorredor-de-louca",
-    "link": "https://shopee.com.br/product/1257363873/23892754359?uls_trackid=52ufb5ud0166&utm_campaign=id_a8BnabTgXO&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d68z3hgh2s2f",
-    "reservado": false
-  },
-  {
-    "id": 39,
-    "title": "Fritadeira Air Fryer",
-    "imageSlug": "fritadeira-air-fryer",
-    "link": "https://www.amazon.com.br/dp/B08HZFC8C2?ref=cm_sw_r_cso_wa_apan_dp_CY8E2WZD93BQ8WEPEQV3&ref_=cm_sw_r_cso_wa_apan_dp_CY8E2WZD93BQ8WEPEQV3&social_share=cm_sw_r_cso_wa_apan_dp_CY8E2WZD93BQ8WEPEQV3&previewDoh=1&th=1",
-    "reservado": false
-  },
-  {
-    "id": 40,
-    "title": "Panela Elétrica de Arroz",
-    "imageSlug": "panela-eletrica-de-arroz",
-    "link": "https://www.mercadolivre.com.br/panela-eletrica-erc20-por-rita-lobo-com-capacidade-35l-antiaderente-inox-electrolux-220v/p/MLB26131294?product_trigger_id=MLB26131294&attributes=COLOR%3AInox%2CVOLTAGE%3A220V&picker=true",
-    "reservado": false
-  },
-  {
-    "id": 41,
-    "title": "Varal De Chão 3 Andares",
-    "imageSlug": "varal-de-chao",
-    "link": "https://shopee.com.br/product/428672730/20698999872?uls_trackid=52vgi16t006h&utm_campaign=id_V4r6qmM7Ba&utm_content=----&utm_medium=affiliates&utm_source=an_18387410628&utm_term=d6y23d5e5v5m",
+    "title": "Kit Peneira",
+    "imageSlug": "KitPeneira",
+    "link": "https://br.shp.ee/FstXR7p",
     "reservado": false
   }
 ]
