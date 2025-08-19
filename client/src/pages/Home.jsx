@@ -181,7 +181,7 @@ const Home = () => {
           >
             <MapPin className="bg-black rounded-full text-white p-1 w-8 h-8" />
           </motion.div>
-          <p>R. Raposa-do-Campo, 510 - Pequis</p>
+          <p>R. Raposa do Campo, 510 - Pequis</p>
         </div>
       </motion.section>
 
